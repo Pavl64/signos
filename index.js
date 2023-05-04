@@ -1,7 +1,7 @@
 let dia=prompt("ingrese su fecha(1-31)");
 let mes=prompt("ingrese su mes(1-12)");
 
-if (dia>31 || dia<1) {
+if (dia>31 || dia<1 || mes>12||mes<1) {
     console.log("esta fecha no exite")
 } else {
     if((dia==30 && mes==2)||(dia==31 && mes==2)){
